@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Health Tracker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a href="#/" class="brand"><span class="brand-dot"></span>Health Tracker</a>
+    <nav class="nav">
+      <a href="#/" data-route="">Home</a>
+      <a href="#/health" data-route="health">Health</a>
+      <a href="#/food" data-route="food">Food</a>
+      <a href="#/profile" data-route="profile">Profile</a>
+      <a href="#/settings" data-route="settings" title="Settings">⚙</a>
+    </nav>
+  </header>
+  <main id="app"></main>
+  <div id="toast" class="toast" hidden></div>
+
+  <script src="js/util.js"></script>
+  <script src="js/store.js"></script>
+  <script src="js/calc.js"></script>
+  <script src="js/claude.js"></script>
+  <script src="js/foods.js"></script>
+  <script src="js/chart.js"></script>
+  <script src="js/pages/home.js"></script>
+  <script src="js/pages/health.js"></script>
+  <script src="js/pages/food.js"></script>
+  <script src="js/pages/profile.js"></script>
+  <script src="js/pages/settings.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
